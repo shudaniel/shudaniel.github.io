@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./CSS/main.css">
+
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Daniel Shu</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#about_me">About Me</a>
+                        <a class="nav-item nav-link" href="#projects">Projects</a>
+                        <a class="nav-item nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </head>
+    <body>
+        <div class="content">
+            <div class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/landscape-profile.jpg" class="d-block w-100" >
+                    </div>
+                </div>
+            </div>
+            <div id="about_me" class="subsection">
+                <h1 class="section_title">About Me</h1>
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <p>I am a fourth year computer science major at UCSB. I have industry experiences in web development and GUI design, and I'm always looking to try new things. Challenge drives me to work harder, and greater difficulties lead to greater satisfaction at overcoming them.</p>
+                        <p>I am interested in distributed systems and computer networking, but I am open to any subject and always want to learn more. I have completed three internships at two different companies and am currently a part of a research lab on campus.</p>
+                        <p>Outside of computer science, I love to inline skate and go to the beach. The outdoors are so beautiful, and I always want to travel and explore new areas.</p>
+                    </div>
+                    <img class="col-lg-4 col-md-12" src="Images/portrait-profile.jpg" />
+                </div>
+            </div>
+
+            <div id="projects" class="subsection">
+                <h1 class="section_title">Projects</h1>
+
+                <div class="container project">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="card">
+                                <img src="Images/reddit.png" class="card-img-top" />
+                                <div class="card-body text-center">
+                                    <a href="https://github.com/meredithxu/reddit_place_project" class="btn btn-primary" target="_blank">View
+                                        Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="side-margin col-lg-8 col-sm-12">
+                            <h4>Reddit r/place Research</h4>
+                            <p>Reddit's r/place social experiment took place on April Fools' Day 2017 where users collaborated to draw artworks. I worked in Dr. Ambuj Singh's lab to apply machine learning models and computer vision techinques to segment images and understand online users' collective
+                            behavior</p>
+                            
+                            <p>Developed using python.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container project">
+                    <div class="row">
+                        <div class="side-margin col-lg-8 col-sm-12">
+                            <h4>UCSB Hyperloop Website</h4>
+                            <p>I developed the front-end of the UCSB Hyperloop website to provide information about the team and attract potential sponsors.</p> 
+                            <p/>The project was built using React.js. </p>
+                        </div>
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="card">
+                                <img src="Images/hyperloop-screenshot.png" class="card-img-top" />
+                                <div class="card-body text-center">
+                                    <a href="https://github.com/shudaniel/ucsbhyperloopjswebsite" class="btn btn-primary" target="_blank">View Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container project">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="card">
+                                <img src="Images/timelines-screenshot.png" class="card-img-top" />
+                                <div class="card-body text-center">
+                                    <a href="https://github.com/shudaniel/timelines" class="btn btn-primary" target="_blank">View
+                                        Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="side-margin col-lg-8 col-sm-12">
+                            <h4>Timelines</h4>
+                            <p>This tool automatically creates news timelines for any topic to give users context around a certain situation. The user is prompted for a topic and the tool will fetch related articles using News API and display them in chronological order.</p>
+                            <p>Deployed with heroku and can be found here:<a href="https://timelines-cs48.herokuapp.com/" target="_blank"> https://timelines-cs48.herokuapp.com/</a></p>
+                            <p>Built using Spring-Boot and written in Java and Javascript.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact" class="subsection">
+                <h1 class="section_title">Contact Me</h1>
+                <p>Email: danielshu98@gmail.com</p>
+                <p>Resume available upon request.</p>
+                <p><a href="https://github.com/shudaniel" target="_blank">Github: shudaniel</a></p>
+                <p><a href="https://www.linkedin.com/in/daniel-shu-29289414a/" target="_blank"> LinkedIn</a></p>
+            </div>
+
+        </div>
+    </body>
+</html> 

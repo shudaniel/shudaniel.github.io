@@ -1,0 +1,36 @@
+.subsection  {
+    margin: 40px;
+    padding-top: 55px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 15px;
+}
+
+.header {
+    position: fixed; 
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.content {
+    position: relative;
+    padding-top: 55px;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center; 
+}
+
+.section_title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
