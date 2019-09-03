@@ -1,8 +1,8 @@
 .subsection  {
     margin: 40px;
     padding-top: 55px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 0 10%;
+    padding-right: 0 10%;
     padding-bottom: 15px;
 }
 
@@ -10,6 +10,8 @@
     position: fixed; 
     overflow: hidden;
     top: 0;
+    padding-left: 0 5%;
+    padding-right: 0 5%;
     width: 100%;
     z-index: 999;
 }
