@@ -1,3 +1,29 @@
+# Deploying a subfolder to GitHub Pages
+
+For the sake of this example, let’s pretend the subfolder containing your site is named `build`.
+
+### Step 1
+
+Remove the `build` directory from the project’s `.gitignore` file (it’s ignored by default by Yeoman).
+
+### Step 2
+
+Make sure git knows about your subtree (the subfolder with your site).
+
+```sh
+git add build && git commit -m "Initial build subtree commit"
+```
+
+### Step 3
+
+Use subtree push to send it to the `gh-pages` branch on GitHub.
+
+```sh
+git subtree push --prefix build origin gh-pages
+```
+
+-------------------------------  
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
