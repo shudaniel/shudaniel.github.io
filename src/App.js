@@ -10,6 +10,7 @@ import hyperloop from './Images/hyperloop-screenshot.png'
 import reddit from './Images/reddit.png'
 import timelines from './Images/timelines-screenshot.png'
 import personalsite from './Images/personalwebsite-screenshot.png'
+import spacemonitor from './Images/spacemonitor-screenshot.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -40,6 +41,15 @@ function App() {
 
             <div id="projects" className="subsection">
               <h1 className="section-title">Projects</h1>
+              <Project 
+                image={spacemonitor}
+                repolink="https://github.com/powwow-capstone/spacemonitor"
+                title="Senior Capstone Project with PowWow Energy"
+                description="Partnered with PowWow energy to create an application for the agricultural industry that estimates water usage. 
+                            Farmers and resource conservation districts can use our app to improve water efficiency and benefit the environment. 
+                            The satellite data we use is relatively new and my team is one of the first to create an application with it."
+                tools=""
+              />
               <Project 
                 image={reddit}
                 repolink="https://github.com/meredithxu/reddit_place_project"
