@@ -9,6 +9,7 @@ import anacapa from './Images/anacapa-screenshot.jpg'
 import hyperloop from './Images/hyperloop-screenshot.png'
 import reddit from './Images/reddit.png'
 import timelines from './Images/timelines-screenshot.png'
+import personalsite from './Images/personalwebsite-screenshot.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -69,10 +70,14 @@ function App() {
                 description="This tool automatically creates news timelines for any topic to give users context around a certain situation. The user is prompted for a topic and the tool will fetch related articles using News API and display them in chronological order."
                 tools="Built using Spring-Boot and written in Java and Javascript."
               />
+              <Project 
+                image={personalsite}
+                repolink="https://github.com/shudaniel/shudaniel.github.io"
+                title="Personal Website"
+                description="I created this personal website using React to show my projects and teach people more about me"
+                tools=""
+              />
 
-        </div>
-        <div className="col-12 text-center">
-          <a className="btn btn-primary" href="https://github.com/shudaniel/shudaniel.github.io" target="_blank">I also made this website. Click here to view the repo.</a>
         </div>
         <Bottombar />
       </div>
