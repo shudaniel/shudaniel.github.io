@@ -16,7 +16,6 @@ class Navbar extends Component {
                         <div className="navbar-nav">
                             <a className="nav-item nav-link" href="#about_me">About Me</a>
                             <a className="nav-item nav-link" href="#projects">Projects</a>
-                            <a className="nav-item nav-link" href="#contact">Contact</a>
                         </div>
                     </div>
                 </nav>
