@@ -16,10 +16,10 @@ git add build && git commit -m "Initial build subtree commit"
 
 ### Step 3
 
-Use subtree push to send it to the `gh-pages` branch on GitHub.
+Use subtree push to send it to the `master` branch on GitHub.
 
 ```sh
-git subtree push --prefix build origin gh-pages
+git subtree push --prefix build origin master
 ```
 
 -------------------------------  
