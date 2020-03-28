@@ -1,7 +1,6 @@
 .idea/
 .vscode/
 node_modules/
-build
 .DS_Store
 *.tgz
 my-app*
@@ -21,9 +20,6 @@ yarn.lock# See https://help.github.com/articles/ignoring-files/ for more about i
 
 # testing
 /coverage
-
-# production
-/build
 
 # misc
 .DS_Store
