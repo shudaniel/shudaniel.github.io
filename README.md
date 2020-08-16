@@ -22,6 +22,15 @@ Use subtree push to send it to the `master` branch on GitHub.
 git subtree push --prefix build origin master
 ```
 
+### To modify the website:
+
+```sh
+git checkout react-code
+git branch -d master
+git subtree split --prefix build -b master
+git push -f origin master:master
+```
+
 -------------------------------  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
