@@ -30,8 +30,8 @@ function App() {
               <h1 className="section-title">About Me</h1>
               <div className="row">
                 <div className="col-lg-9 col-md-12">
-                  <p>I am a fourth year computer science major at UCSB. I have industry experiences in web development and GUI design, and I'm always looking to try new things. Challenge drives me to work harder, and greater difficulties lead to greater satisfaction at overcoming them.</p>
-                  <p>I am interested in distributed systems and computer networking, but I am open to any subject and always want to learn more. I have completed three internships at two different companies and am currently a part of a research lab on campus. I plan to graduate from UCSB with both a bachelor's and a master's degree in 2021.</p>
+                  <p>I am a fifth year BS/MS computer science major at the University of California, Santa Barbara (UCSB). I have industry experiences in web development and GUI design, and I'm always looking to try new things. Challenge drives me to work harder, and greater difficulties lead to greater satisfaction at overcoming them.</p>
+                  <p>I am interested in distributed systems and computer networking, particularly doing work with blockchain.  I also enjoy and have industry experience in fullstack development. I have completed four internships, one for each past summer since 2016. I plan to graduate from UCSB with both a bachelor's and a master's degree in June 2021.</p>
                   <p>Outside of computer science, I love to inline skate and go to the beach. The outdoors are so beautiful, and I always want to travel and explore new areas.</p>
                 </div>
                 <img className="col-lg-3 col-md-12 card-pic" src={portrait} />
@@ -48,7 +48,7 @@ function App() {
                 description="Partnered with PowWow energy to create an application for the agricultural industry that estimates water usage. 
                             Farmers and resource conservation districts can use our app to improve water efficiency and benefit the environment. 
                             The satellite data we use is relatively new and my team is one of the first to create an application with it."
-                tools=""
+                tools="Our team won 3rd place out of ten teams in the UCSB Capstone competition."
               />
               <Project 
                 image={reddit}
