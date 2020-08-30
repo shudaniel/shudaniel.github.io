@@ -3,14 +3,16 @@ import Project from './Project/Project'
 import Navbar from './Navbar/Navbar'
 import Bottombar from './Bottombar/Bottombar'
 
-import landscape from './Images/landscape-profile.jpg'
-import portrait from './Images/portrait-profile.jpg'
-import anacapa from './Images/anacapa-screenshot.jpg'
-import hyperloop from './Images/hyperloop-screenshot.png'
-import reddit from './Images/reddit.png'
-import timelines from './Images/timelines-screenshot.png'
-import personalsite from './Images/personalwebsite-screenshot.png'
-import spacemonitor from './Images/spacemonitor-screenshot.png'
+import landscape from './Images/landscape-profile.jpg';
+import portrait from './Images/portrait-profile.jpg';
+import anacapa from './Images/anacapa-screenshot.jpg';
+import hyperloop from './Images/hyperloop-screenshot.png';
+import reddit from './Images/reddit.png';
+import timelines from './Images/timelines-screenshot.png';
+import personalsite from './Images/personalwebsite-screenshot.png';
+import spacemonitor from './Images/spacemonitor-screenshot.png';
+import blockchain from './Images/blockchain.png';
+import folder from './Images/folder.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -42,13 +44,44 @@ function App() {
             <div id="projects" className="subsection">
               <h1 className="section-title">Projects</h1>
               <Project 
+                image={blockchain}
+                repolink="https://github.com/AartiJivrajani/All-On-Cloud-9"
+                title="CAPER Blockchain"
+                description="Implemented a research paper for the CAPER blockchain in the context of a supply chain where a 
+                            single permissioned blockchain is maintained across multiple applications, but each application's view of the 
+                            ledger is restricted to their own transactions, providing a decentralized distributed ledger that 
+                            also maintains privacy."
+                tools="This tool utilized another consensus algorithm, BPAXOS, which is a modification of PAXOS
+                        with increased scalability."
+                links={[
+                  { 
+                    name: "CAPER",
+                    link: "http://www.vldb.org/pvldb/vol12/p1385-amiri.pdf"
+                  },
+                  { 
+                    name: "BPaxos",
+                    link: "https://arxiv.org/pdf/2003.00331.pdf"
+                  },
+                ]}
+              />
+              <Project 
+                image={folder}
+                repolink=""
+                title="File System with FUSE"
+                description="Developed a file system completely in user space using FUSE in a team of four. 
+                            We implemented everything from the freelist and inode initialization to the page tables and buffer cache.
+                            My role was page table initialization and I wrote extensive end-to-end tests."
+                tools="Unfortunately, the repo is not public and I cannot share it."
+              />
+              <Project 
                 image={spacemonitor}
                 repolink="https://github.com/powwow-capstone/spacemonitor"
                 title="Senior Capstone Project with PowWow Energy"
                 description="Partnered with PowWow energy to create an application for the agricultural industry that estimates water usage. 
                             Farmers and resource conservation districts can use our app to improve water efficiency and benefit the environment. 
                             The satellite data we use is relatively new and my team is one of the first to create an application with it."
-                tools="Our team won 3rd place out of ten teams in the UCSB Capstone competition."
+                tools="My role was team lead, and I organized the development schedule, set two week sprint goals, and 
+                      distributed tasks between team members. We followed Agile development practices, and our team won 3rd place out of ten teams in the UCSB Capstone competition."
               />
               <Project 
                 image={reddit}
@@ -63,7 +96,7 @@ function App() {
                 repolink="https://github.com/project-anacapa/anacapa-github-linker"
                 title="Anacapa GitHub Linker"
                 description="This tool automates the process of adding students to Github organizations and managing classes for UCSB 
-                            Computer Science department faculty."
+                            Computer Science department faculty. This allows professors to focus on preparing teaching materials instead of setting up their class tools."
                 tools="The project was built using Ruby on Rails."
               />
               <Project 

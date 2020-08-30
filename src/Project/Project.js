@@ -3,6 +3,18 @@ import { Component } from 'react';
 
 class Project extends Component {
 
+    createLinks() {
+        var links = [];
+        for (var i = 0; i < this.props.links.length; ++i) {
+            links.push(
+                <li>
+                    <a href={this.props.links[i].link}>{this.props.links[i].name}</a>
+                </li>
+            )
+        }
+        return links;
+    }
+
     render() {
         return (
             <div className="container project">
@@ -11,8 +23,8 @@ class Project extends Component {
                         <div className="card">
                             <img src={this.props.image} className="card-img-top" />
                             <div className="card-body text-center">
-                                <a href={this.props.repolink} className="btn btn-primary" target="_blank">View
-                                        Repo</a>
+                                {this.props.repolink && this.props.repolink.length > 0 && <a href={this.props.repolink} className="btn btn-primary" target="_blank">View
+                                        Repo</a>}
                             </div>
                         </div>
                     </div>
@@ -20,6 +32,7 @@ class Project extends Component {
                         <h4>{this.props.title}</h4>
                         <p>{this.props.description}</p>
                         <p>{this.props.tools}</p>
+                        {this.props.links && <ul>{this.createLinks()}</ul>}
                     </div>
                 </div>
             </div>
