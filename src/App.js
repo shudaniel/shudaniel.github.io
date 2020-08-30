@@ -54,7 +54,7 @@ function App() {
                             ledger is restricted to their own transactions, providing a decentralized distributed ledger that 
                             also maintains privacy."
                 tools="This tool utilized another consensus algorithm, BPAXOS, which is a modification of PAXOS
-                        with increased scalability."
+                        with increased scalability. Links to research papers:"
                 links={[
                   { 
                     name: "CAPER",

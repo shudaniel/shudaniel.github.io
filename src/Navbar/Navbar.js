@@ -1,5 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
+import './Navbar.css';
 
 class Navbar extends Component {
 
@@ -8,16 +9,19 @@ class Navbar extends Component {
             <div className="header">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <a className="navbar-brand" href="/">Daniel Shu</a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+
+
+                    {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"><i class="fas fa-bars fa-1x"></i></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div className="navbar-nav">
-                            <a className="nav-item nav-link" href="#about_me">About Me</a>
-                            <a className="nav-item nav-link" href="#projects">Projects</a>
-                        </div>
-                    </div>
+                        <div className="navbar-nav nav"> */}
+                    <a className="nav-item nav-link" href="#about_me">About Me</a>
+                    <a className="nav-item nav-link" href="#projects">Projects</a>
+                        {/* </div> */}
+                    {/* </div> */}
+
                 </nav>
             </div>
         );
