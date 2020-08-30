@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a391d58a55f5ac531803de61c277d3f1",
+    "revision": "fe6ed2614db863479a1897cde1f0e240",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "c1b4fe0e2c32dd2a6814",
+    "revision": "4f7057c30c12eff73407",
     "url": "/static/css/main.818ede60.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.fe029677.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c1b4fe0e2c32dd2a6814",
-    "url": "/static/js/main.e587ef57.chunk.js"
+    "revision": "4f7057c30c12eff73407",
+    "url": "/static/js/main.8f7dcbbc.chunk.js"
   },
   {
     "revision": "7b3037869eaf6d65db9b",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hyperloop-screenshot.25b12ca3.png"
   },
   {
-    "revision": "6a347940f064146525be36b805414901",
-    "url": "/static/media/kubernetes.6a347940.png"
+    "revision": "a43c3a41623096c7008cf6a36b759cfc",
+    "url": "/static/media/kubernetes.a43c3a41.png"
   },
   {
     "revision": "25b20365b03b3542fc0d7c738adaefeb",
