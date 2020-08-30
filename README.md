@@ -27,6 +27,7 @@ git subtree push --prefix build origin master
 ```sh
 git checkout react-code
 git branch -d master
+npm run-script build
 git subtree split --prefix build -b master
 git push -f origin master:master
 ```
