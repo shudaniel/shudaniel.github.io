@@ -8,7 +8,7 @@ class Project extends Component {
         for (var i = 0; i < this.props.links.length; ++i) {
             links.push(
                 <li>
-                    <a href={this.props.links[i].link}>{this.props.links[i].name}</a>
+                    <a href={this.props.links[i].link} target="_blank" >{this.props.links[i].name}</a>
                 </li>
             )
         }
