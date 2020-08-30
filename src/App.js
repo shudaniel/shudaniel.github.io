@@ -12,6 +12,7 @@ import timelines from './Images/timelines-screenshot.png';
 import personalsite from './Images/personalwebsite-screenshot.png';
 import spacemonitor from './Images/spacemonitor-screenshot.png';
 import blockchain from './Images/blockchain.png';
+import kubernetes from './Images/kubernetes.png';
 import folder from './Images/folder.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -34,6 +35,7 @@ function App() {
                 <div className="col-lg-9 col-md-12">
                   <p>I am a fifth year BS/MS computer science major at the University of California, Santa Barbara (UCSB). I have industry experiences in web development and GUI design, and I'm always looking to try new things. Challenge drives me to work harder, and greater difficulties lead to greater satisfaction at overcoming them.</p>
                   <p>I am interested in distributed systems and computer networking, particularly doing work with blockchain.  I also enjoy and have industry experience in fullstack development. I have completed four internships, one for each past summer since 2016. I plan to graduate from UCSB with both a bachelor's and a master's degree in June 2021.</p>
+                  <p>Currently, I am working with Professor Amr El Abbadi and Professor Divyakant Agrawal on research relating to blockchain and smart contracts.</p>
                   <p>Outside of computer science, I love to inline skate and go to the beach. The outdoors are so beautiful, and I always want to travel and explore new areas.</p>
                 </div>
                 <img className="col-lg-3 col-md-12 card-pic" src={portrait} />
@@ -63,6 +65,16 @@ function App() {
                     link: "https://arxiv.org/pdf/2003.00331.pdf"
                   },
                 ]}
+              />
+              <Project 
+                image={kubernetes}
+                repolink="https://github.com/shudaniel/RuntimeAutoDeploy"
+                title="Runtime Auo-Deploy (R.A.D.)"
+                description="Create tool to take Dockerized applications and automatically setup and deploy them to 
+                        Kubernetes pods so that developers can focus on implementation and not spend time configuring 
+                        deployment tools. Users will ping an endpoint with a GitHub repo containg a Dockerfile to start the 
+                        pipeline."
+                tools="Implemented in Go."
               />
               <Project 
                 image={folder}
