@@ -126,13 +126,13 @@ function App() {
                 description="This tool automatically creates news timelines for any topic to give users context around a certain situation. The user is prompted for a topic and the tool will fetch related articles using News API and display them in chronological order."
                 tools="Built using Spring-Boot and written in Java and Javascript."
               />
-              <Project 
+              {/* <Project 
                 image={personalsite}
                 repolink="https://github.com/shudaniel/shudaniel.github.io"
                 title="Personal Website"
                 description="I created this personal website using React to show my projects and teach people more about me"
                 tools=""
-              />
+              /> */}
 
         </div>
         <Bottombar />
