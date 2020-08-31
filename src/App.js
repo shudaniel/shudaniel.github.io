@@ -80,7 +80,8 @@ function App() {
                 image={folder}
                 repolink=""
                 title="File System with FUSE"
-                description="Developed a file system completely in user space using FUSE in a team of four. 
+                description="Developed a file system completely in user space using FUSE in a team of four. This file system could be mounted and perform the
+                            functionality of Unix file system.
                             We implemented everything from the freelist and inode initialization to the page tables and buffer cache.
                             My role was page table initialization and I wrote extensive end-to-end tests."
                 tools="Unfortunately, the repo is not public and I cannot share it."
